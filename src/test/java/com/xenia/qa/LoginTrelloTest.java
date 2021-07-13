@@ -11,16 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginTrelloTest {
-    WebDriver wd;
-
-    @BeforeMethod
-    public void setUp() {
-        wd = new ChromeDriver();
-        wd.manage().window().maximize();
-        wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        wd.get("https://trello.com/");
-    }
+public class LoginTrelloTest extends TestBase{
 
     @Test
     public void loginTest() throws InterruptedException {
@@ -48,18 +39,4 @@ public class LoginTrelloTest {
                         (By.xpath("//ul[@class='boards-page-board-section-list']")));
     }
 
-    public void type(By locator, String text) {
-        click(locator);
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
-    }
-
-    public  void  click(By locator) {
-        wd.findElement(locator).click();
-    }
-
-    @AfterMethod
-    public void tearDown() {
-        wd.quit();
-    }
 }
