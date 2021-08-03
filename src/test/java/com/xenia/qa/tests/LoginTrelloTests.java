@@ -15,18 +15,22 @@ public class LoginTrelloTests extends TestBase {
     }
 
     @Test
-    public void loginLogoutTest() throws InterruptedException {
+    public void loginTest() throws InterruptedException {
 
         app.session().clickOnLoginButton();
         //    app.getSession().fillLoginForm(new User ("rochman.elena@gmail.com", "12345.com"));
         app.session().fillLoginForm(new User()
-                .withEmail("rochman.elena@gmail.com")
-                .withPassword("12345.com"));
+                .withEmail("xeniya.kraeva+1@mail.ru")
+                .withPassword("97531.mail"));
         app.session().confirmLogin();
 
         Assert.assertTrue(app.session().isAvatarPresentWait());
+    }
 
+    @Test
+    public void LogoutTest() throws InterruptedException {
         app.session().logout();
+        Thread.sleep(10);
         Assert.assertTrue(app.session().checkUserLoggedOut());
     }
 
@@ -36,7 +40,7 @@ public class LoginTrelloTests extends TestBase {
         app.session().clickOnLoginButton();
         //    app.getSession().fillLoginForm(new User ("rochman.elena@gmail.com", "12345.com"));
         app.session().fillLoginForm(new User()
-                .withEmail("rochman.elena@gmail.com"));
+                .withEmail("xeniya.kraeva+1@mail.ru"));
         app.session().confirmLogin();
         Assert.assertTrue(app.session().isErrorPresent(), "Error is not present");
 

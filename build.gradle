@@ -17,3 +17,24 @@ dependencies {
 test {
     useTestNG()
 }
+
+task sanity(type: Test) {
+    useTestNG{
+        suites 'src/test/resources/testng-sanity.xml'
+    }
+    if(project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+}
+
+task debug(type: Test) {
+    useTestNG{
+        suites 'src/test/resources/testng-debug.xml'
+    }
+}
+
+task clearBoards(type: Test) {
+    useTestNG{
+        suites 'src/test/resources/testng-cleanBoard.xml'
+    }
+}
