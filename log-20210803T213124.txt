@@ -1,0 +1,12 @@
+21:31:26 INFO  com.xenia.qa.tests.TestBase - start testloginTest
+21:31:44 INFO  com.xenia.qa.tests.TestBase - stop testloginTest
+21:31:44 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTest
+21:31:54 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTest
+21:31:54 INFO  com.xenia.qa.tests.TestBase - start testboardNameModificationTest
+21:31:55 INFO  com.xenia.qa.tests.TestBase - stop testboardNameModificationTest
+21:31:55 INFO  com.xenia.qa.tests.TestBase - start testtestListCreation
+21:31:56 INFO  com.xenia.qa.tests.TestBase - stop testtestListCreation
+21:31:56 INFO  com.xenia.qa.tests.TestBase - start testtestListCreation
+21:32:03 INFO  com.xenia.qa.tests.TestBase - stop testtestListCreation
+21:32:03 INFO  com.xenia.qa.tests.TestBase - start testtestBoardDeletion
+21:32:16 INFO  com.xenia.qa.tests.TestBase - stop testtestBoardDeletion

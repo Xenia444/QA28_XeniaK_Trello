@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Sanity" verbose="1" >
+    <test name="Sanity-positive" >
+        <classes>
+            <class name="com.xenia.qa.tests.LoginTrelloTests">
+                <methods>
+                    <include name="loginTest" />
+                </methods>
+            </class>
+            <class name="com.xenia.qa.tests.BoardDeletionTests" />
+        </classes>
+    </test>
+</suite>
