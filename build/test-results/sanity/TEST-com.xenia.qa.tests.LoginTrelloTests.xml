@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xenia.qa.tests.LoginTrelloTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-12T12:32:45" hostname="localhost.localdomain" time="15.982">
+  <properties/>
+  <testcase name="loginTest" classname="com.xenia.qa.tests.LoginTrelloTests" time="15.982"/>
+  <system-out><![CDATA[15:32:42 INFO  com.xenia.qa.tests.TestBase - start testloginTest
+15:32:42 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:32:45 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:32:45 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //a[@href='/login'].
+15:32:45 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //a[@href='/login']found.
+15:32:45 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+15:32:47 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+15:32:47 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+15:32:47 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+15:32:47 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+15:32:47 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+15:32:49 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //input[@id='login'].
+15:32:49 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //input[@id='login']found.
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //button[@id='login-submit'].
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //button[@id='login-submit']found.
+15:32:51 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //ul[@class = 'boards-page-board-section-list'].
+15:33:01 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //ul[@class = 'boards-page-board-section-list']found.
+15:33:01 INFO  com.xenia.qa.tests.TestBase - stop testloginTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

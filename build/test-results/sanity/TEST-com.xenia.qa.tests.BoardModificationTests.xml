@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xenia.qa.tests.BoardModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-12T12:34:29" hostname="localhost.localdomain" time="1.003">
+  <properties/>
+  <testcase name="boardNameModificationTest" classname="com.xenia.qa.tests.BoardModificationTests" time="1.003"/>
+  <system-out><![CDATA[15:34:29 INFO  com.xenia.qa.tests.TestBase - start testboardNameModificationTest
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .mod-board-name.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .mod-board-namefound.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .js-board-name-input.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .js-board-name-inputfound.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:30 INFO  com.xenia.qa.tests.TestBase - stop testboardNameModificationTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

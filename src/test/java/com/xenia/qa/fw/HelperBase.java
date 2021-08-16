@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.util.NoSuchElementException;
 
 
@@ -70,5 +71,11 @@ public class HelperBase {
 
     public void confirmAction() {
         click(By.cssSelector(".js-confirm"));
+    }
+
+    public void attachFile(By locator, File file) {
+        // if(file.!=null){
+        wd.findElement(locator).sendKeys(file.getAbsolutePath());
+        //   }
     }
 }

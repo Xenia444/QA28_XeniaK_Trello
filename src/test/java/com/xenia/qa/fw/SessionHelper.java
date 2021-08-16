@@ -5,9 +5,15 @@ import com.xenia.qa.model.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+
 public class SessionHelper extends HelperBase {
-    public SessionHelper(WebDriver wd) {
+    Properties properties;
+    public SessionHelper(WebDriver wd, Properties properties) {
         super(wd);
+        this.properties = new Properties();
     }
 
     public void login(String email, String password) throws InterruptedException {
@@ -68,5 +74,23 @@ public class SessionHelper extends HelperBase {
 
     public boolean isErrorPresent() {
         return isElementPresent(By.cssSelector("#password-error"));
+    }
+
+    public void openUserProfile() {
+        click(By.cssSelector("[data-test-id='header-member-menu-profile']"));
+    }
+
+    public void goToAtlassianAccount() {
+        click(By.cssSelector("[href$='manage-profile']"));
+        ArrayList<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window(tabs.get(1));
+
+    }
+
+    public void returnToTrelloFromAtlassian() {
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.close();
+        wd.switchTo().window(tabs.get(0));
+
     }
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xenia.qa.tests.ListCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-12T12:34:30" hostname="localhost.localdomain" time="0.377">
+  <properties/>
+  <testcase name="testListCreation" classname="com.xenia.qa.tests.ListCreationTest" time="0.377"/>
+  <system-out><![CDATA[15:34:30 INFO  com.xenia.qa.tests.TestBase - start testtestListCreation
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .js-add-list.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .js-add-listfound.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.name: name.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.name: namefound.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.name: name.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.name: namefound.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.name: name.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.name: namefound.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .js-save-edit.
+15:34:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .js-save-editfound.
+15:34:30 INFO  com.xenia.qa.tests.TestBase - stop testtestListCreation
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,40 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.xenia.qa.tests.LoginTrelloTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-04T13:27:09" hostname="localhost.localdomain" time="24.55">
-  <properties/>
-  <testcase name="loginTest" classname="com.xenia.qa.tests.LoginTrelloTests" time="24.55"/>
-  <system-out><![CDATA[16:27:06 INFO  com.xenia.qa.tests.TestBase - start testloginTest
-16:27:06 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
-16:27:09 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
-16:27:09 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //a[@href='/login'].
-16:27:09 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //a[@href='/login']found.
-16:27:09 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
-16:27:11 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
-16:27:11 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
-16:27:11 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
-16:27:13 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
-16:27:13 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
-16:27:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //input[@id='login'].
-16:27:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //input[@id='login']found.
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //button[@id='login-submit'].
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //button[@id='login-submit']found.
-16:27:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //ul[@class = 'boards-page-board-section-list'].
-16:27:26 ERROR c.xenia.qa.tests.TestBase$MyListener - !!!!!TEST FAILED!!!!!
+15:08:20 INFO  com.xenia.qa.tests.TestBase - start testtestChangeUserAvatar
+15:08:20 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:08:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:08:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //a[@href='/login'].
+15:08:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //a[@href='/login']found.
+15:08:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+15:08:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+15:08:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+15:08:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+15:08:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+15:08:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+15:08:27 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //input[@id='login'].
+15:08:27 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //input[@id='login']found.
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //button[@id='login-submit'].
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //button[@id='login-submit']found.
+15:08:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id=header-member-menu-button].
+15:08:39 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id=header-member-menu-button]found.
+15:08:39 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id='header-member-menu-profile'].
+15:08:39 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id='header-member-menu-profile']found.
+15:08:39 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [href$='manage-profile'].
+15:08:39 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [href$='manage-profile']found.
+15:08:46 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-selector='profile-avatar'].
+15:08:46 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-selector='profile-avatar']found.
+15:08:46 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //button[@class='css-fbv3aj'].
+15:08:46 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //button[@class='css-fbv3aj']found.
+15:08:47 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [id=image-input].
+15:08:50 ERROR c.xenia.qa.tests.TestBase$MyListener - !!!!!TEST FAILED!!!!!
 
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class = 'boards-page-board-section-list']"}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[id=image-input]"}
   (Session info: chrome=91.0.4472.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'fedora', ip: '127.0.0.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.12.15-300.fc34.x86_64', java.version: '11.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.114 (4bb19460e8d8..., userDataDir: /tmp/.org.chromium.Chromium...}, goog:chromeOptions: {debuggerAddress: localhost:41949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d8a8a31a3056e641caef303cebb7404
-*** Element info: {Using=xpath, value=//ul[@class = 'boards-page-board-section-list']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.114 (4bb19460e8d8..., userDataDir: /tmp/.org.chromium.Chromium...}, goog:chromeOptions: {debuggerAddress: localhost:44127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f08611afcb4d862a783a12b77f69566
+*** Element info: {Using=css selector, value=[id=image-input]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -46,8 +52,8 @@ Session ID: 9d8a8a31a3056e641caef303cebb7404
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -56,13 +62,9 @@ Session ID: 9d8a8a31a3056e641caef303cebb7404
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
 	at com.sun.proxy.$Proxy14.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.xenia.qa.fw.HelperBase.waitForElement(HelperBase.java:59)
-	at com.xenia.qa.fw.HelperBase.waitForElementPresentTryCatch(HelperBase.java:49)
-	at com.xenia.qa.fw.SessionHelper.isAvatarPresentWait(SessionHelper.java:66)
-	at com.xenia.qa.tests.LoginTrelloTests.loginTest(LoginTrelloTests.java:31)
+	at com.xenia.qa.fw.HelperBase.attachFile(HelperBase.java:78)
+	at com.xenia.qa.fw.AtlassianHelper.uploadPhoto(AtlassianHelper.java:22)
+	at com.xenia.qa.tests.UserModificationTests.testChangeUserAvatar(UserModificationTests.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -116,10 +118,7 @@ Session ID: 9d8a8a31a3056e641caef303cebb7404
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:829)
-16:27:33 ERROR c.xenia.qa.tests.TestBase$MyListener - screenshot screenshots/screen-1628083646820.png
-16:27:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //ul[@class = 'boards-page-board-section-list'].
-16:27:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //ul[@class = 'boards-page-board-section-list']found.
-16:27:34 INFO  com.xenia.qa.tests.TestBase - stop testloginTest
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
+15:08:50 ERROR c.xenia.qa.tests.TestBase$MyListener - screenshot screenshots/screen-1628770130325.png
+15:08:50 INFO  com.xenia.qa.tests.TestBase - stop testtestChangeUserAvatar
+15:08:50 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:08:53 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.

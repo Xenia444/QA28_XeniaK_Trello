@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xenia.qa.tests.BoardCreationTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-12T12:33:01" hostname="localhost.localdomain" time="87.674">
+  <properties/>
+  <testcase name="boardCreationTest" classname="com.xenia.qa.tests.BoardCreationTests" time="9.922"/>
+  <testcase name="boardCreationTestDataProvider1[0](Board{boardName='q'})" classname="com.xenia.qa.tests.BoardCreationTests" time="9.382"/>
+  <testcase name="boardCreationTestDataProvider1[1](Board{boardName='123456-*'})" classname="com.xenia.qa.tests.BoardCreationTests" time="9.578"/>
+  <testcase name="boardCreationTestDataProvider1[2](Board{boardName='AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa'})" classname="com.xenia.qa.tests.BoardCreationTests" time="9.86"/>
+  <testcase name="boardCreationTestDataProvider1[3](Board{boardName='s a b'})" classname="com.xenia.qa.tests.BoardCreationTests" time="10.083"/>
+  <testcase name="boardCreationTestDataProvider1[0](a)" classname="com.xenia.qa.tests.BoardCreationTests" time="9.586"/>
+  <testcase name="boardCreationTestDataProvider1[1](123456789123456789)" classname="com.xenia.qa.tests.BoardCreationTests" time="9.7"/>
+  <testcase name="boardCreationTestDataProvider1[2](^%#@)" classname="com.xenia.qa.tests.BoardCreationTests" time="9.907"/>
+  <testcase name="boardCreationTestDataProvider1[3](h h h)" classname="com.xenia.qa.tests.BoardCreationTests" time="9.554"/>
+  <system-out><![CDATA[15:33:01 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTest
+15:33:01 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:33:01 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:33:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:33:07 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:33:07 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:33:07 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:33:07 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:07 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:07 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:07 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:11 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:11 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:11 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTest
+15:33:11 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTestDataProvider1
+15:33:11 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:33:11 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:33:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:33:16 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:33:16 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:33:16 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:33:16 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:16 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:16 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:16 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:20 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:20 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:20 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTestDataProvider1
+15:33:20 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTestDataProvider1
+15:33:20 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:33:20 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:33:24 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:24 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:24 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:33:24 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:33:24 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:33:24 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:33:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:33:26 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:33:26 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:33:26 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:33:26 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:26 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:26 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:26 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:30 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTestDataProvider1
+15:33:30 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTestDataProvider1
+15:33:30 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:33:30 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:35 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:33:35 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:33:35 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:33:36 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:33:36 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:33:36 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:33:36 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:36 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:36 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:36 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:40 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:40 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:40 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTestDataProvider1
+15:33:40 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTestDataProvider1
+15:33:40 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:33:40 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:33:44 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:33:46 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:33:46 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:33:46 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:33:46 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:46 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:46 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:46 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:50 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:50 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:50 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTestDataProvider1
+15:33:50 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTestDataProvider1
+15:33:50 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:33:50 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:33:54 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:33:55 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:33:55 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:33:55 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:33:55 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:55 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:55 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:33:55 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:33:59 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:33:59 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:33:59 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTestDataProvider1
+15:33:59 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTestDataProvider1
+15:33:59 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:33:59 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:34:03 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:03 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:03 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:34:04 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:34:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:34:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:34:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:34:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:34:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:34:05 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:34:05 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:34:09 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:09 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:09 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTestDataProvider1
+15:34:09 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTestDataProvider1
+15:34:09 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:34:09 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:34:13 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:34:14 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:34:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:34:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:34:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:34:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:34:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:34:15 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:34:15 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:34:19 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:19 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:19 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTestDataProvider1
+15:34:19 INFO  com.xenia.qa.tests.TestBase - start testboardCreationTestDataProvider1
+15:34:19 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+15:34:19 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-menu-button'].
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-menu-button']found.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-create-board-button'].
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-create-board-button']found.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-title-input'].
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-title-input']found.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='create-board-submit-button'].
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='create-board-submit-button']found.
+15:34:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .open-add-list.
+15:34:24 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .open-add-listfound.
+15:34:24 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //h1.
+15:34:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //h1found.
+15:34:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:34:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:34:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id*=header-home].
+15:34:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id*=header-home]found.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+15:34:29 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
+15:34:29 INFO  com.xenia.qa.tests.TestBase - stop testboardCreationTestDataProvider1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -20,4 +20,15 @@ public class ListHelper extends HelperBase {
     public void saveEdit(){
         click(By.cssSelector(".js-save-edit"));
     }
+
+    public boolean isThereAList() {
+        return isElementPresent(By.cssSelector(".list"));
+    }
+
+
+    public void create() {
+        addNew();
+        typeName(new List().withName("autoTest"));
+        saveEdit();
+    }
 }

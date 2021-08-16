@@ -1,0 +1,38 @@
+14:57:16 INFO  com.xenia.qa.tests.TestBase - start testtestChangeUserAvatar
+14:57:16 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@data-test-id='header-member-menu-button'].
+14:57:19 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@data-test-id='header-member-menu-button']found.
+14:57:19 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //a[@href='/login'].
+14:57:19 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //a[@href='/login']found.
+14:57:19 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+14:57:21 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+14:57:21 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+14:57:21 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+14:57:21 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='user'].
+14:57:21 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='user']found.
+14:57:23 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //input[@id='login'].
+14:57:23 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //input[@id='login']found.
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[@name='password'].
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[@name='password']found.
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //button[@id='login-submit'].
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //button[@id='login-submit']found.
+14:57:25 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id=header-member-menu-button].
+14:57:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id=header-member-menu-button]found.
+14:57:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-id='header-member-menu-profile'].
+14:57:34 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-id='header-member-menu-profile']found.
+14:57:34 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [href$='manage-profile'].
+14:57:35 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [href$='manage-profile']found.
+14:57:42 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [data-test-selector='profile-avatar'].
+14:57:42 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [data-test-selector='profile-avatar']found.
+14:57:42 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: .css-1lcqtl7.
+14:57:42 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: .css-1lcqtl7found.
+14:57:42 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.cssSelector: [id=image-input].
+14:57:42 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.cssSelector: [id=image-input]found.
+14:57:42 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //button[.='Upload'].
+14:57:42 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //button[.='Upload']found.
+14:57:48 INFO  com.xenia.qa.tests.TestBase - stop testtestChangeUserAvatar
+14:57:48 INFO  c.xenia.qa.tests.TestBase$MyListener - Start search elementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//li.
+14:57:51 INFO  c.xenia.qa.tests.TestBase$MyListener - ElementBy.xpath: //*[contains(@class, 'boards-page-board-section-header-icon-default-image')]/../../../..//lifound.
